@@ -18,6 +18,11 @@ form{
     width: 90%;
     max-width:600px;
 }
+form h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 27px;
+}
 .input-group{
     margin-bottom: 30px;
     position: relative;
@@ -54,6 +59,9 @@ button{
     border:1px solid #fff;
     width: 100%;
     cursor: pointer;
+}
+button:hover {
+    background-color: #3551b5;
 }
 input:focus~label,
 input:valid~label,
